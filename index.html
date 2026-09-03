@@ -30,6 +30,7 @@
         </div>
       </div>
       
+      <!-- 2 Tabs Toggle -->
       <div class="flex p-1 bg-white/15 backdrop-blur-md rounded-xl border border-white/20 w-full sm:w-auto">
         <button id="tab-btn-1" onclick="switchTab('guidance')" 
                 class="flex-1 sm:flex-initial flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg text-sm font-semibold transition-all duration-200 shadow-sm bg-white text-indigo-700">
@@ -47,6 +48,7 @@
 
   <main class="max-w-7xl mx-auto px-4 py-8 flex-1 w-full">
     
+    <!-- Tab 1: งานแนะแนว (รวมการ์ด Open House ไว้ที่นี่) -->
     <section id="tab-guidance" class="space-y-6">
       <div class="border-b border-slate-200 pb-3">
         <h2 class="text-xl font-bold text-slate-800 flex items-center gap-2">
@@ -58,6 +60,7 @@
 
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
         
+        <!-- สร้างฟอร์ม -->
         <div class="group bg-white rounded-2xl p-5 border border-slate-200/80 shadow-sm hover:shadow-xl hover:border-blue-300 transition-all duration-300 flex flex-col justify-between h-full">
           <div class="space-y-3">
             <div class="w-11 h-11 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center group-hover:scale-110 group-hover:bg-blue-600 group-hover:text-white transition-all">
@@ -78,6 +81,7 @@
           </div>
         </div>
 
+        <!-- สมัครสอบชิงทุน -->
         <div class="group bg-white rounded-2xl p-5 border border-slate-200/80 shadow-sm hover:shadow-xl hover:border-indigo-300 transition-all duration-300 flex flex-col justify-between h-full">
           <div class="space-y-3">
             <div class="w-11 h-11 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center group-hover:scale-110 group-hover:bg-indigo-600 group-hover:text-white transition-all">
@@ -98,6 +102,7 @@
           </div>
         </div>
 
+        <!-- ติดตามข้อมูล -->
         <div class="group bg-white rounded-2xl p-5 border border-slate-200/80 shadow-sm hover:shadow-xl hover:border-violet-300 transition-all duration-300 flex flex-col justify-between h-full">
           <div class="space-y-3">
             <div class="w-11 h-11 rounded-xl bg-violet-50 text-violet-600 flex items-center justify-center group-hover:scale-110 group-hover:bg-violet-600 group-hover:text-white transition-all">
@@ -117,6 +122,27 @@
           </div>
         </div>
 
+       <div class="group bg-white rounded-2xl p-5 border border-slate-200/80 shadow-sm hover:shadow-xl hover:border-amber-300 transition-all duration-300 flex flex-col justify-between h-full">
+  <div class="space-y-3">
+    <div class="w-11 h-11 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center group-hover:scale-110 group-hover:bg-amber-500 group-hover:text-white transition-all">
+      <i data-lucide="house" class="w-5 h-5"></i>
+    </div>
+    <div>
+      <h3 class="text-base font-bold text-slate-800 group-hover:text-amber-600 transition-colors">ET OPEN HOUSE</h3>
+      <p class="text-xs text-slate-500 mt-1.5 leading-relaxed">เว็บลงทะเบียนเข้าร่วมกิจกรรมเปิดบ้าน แนะนำหลักสูตร เวิร์กช็อป และนิทรรศการนวัตกรรม</p>
+    </div>
+  </div>
+  <div class="mt-5 pt-3 border-t border-slate-100">
+    <a href="https://wtkworking.github.io/Open_house/" 
+       target="_blank" 
+       class="inline-flex items-center justify-center w-full gap-2 px-3 py-2 bg-amber-500 hover:bg-amber-600 text-white font-medium rounded-xl text-xs transition-colors shadow-md shadow-amber-500/20">
+      ลงทะเบียนเข้าร่วมกิจกรรม
+      <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+    </a>
+  </div>
+</div>
+
+        <!-- ET CAMP 2027 -->
         <div class="group relative overflow-hidden bg-gradient-to-br from-[#800713] via-[#b3081e] to-[#dc2626] rounded-2xl p-5 border border-red-900/30 text-white shadow-sm hover:shadow-xl hover:shadow-red-900/30 transition-all duration-300 flex flex-col justify-between h-full">
           <div class="space-y-3 relative z-10">
             <div class="flex items-center justify-between">
@@ -146,6 +172,7 @@
       </div>
     </section>
 
+    <!-- Tab 2: ส่วนกลางคณะ -->
     <section id="tab-faculty" class="hidden space-y-6">
       <div class="border-b border-slate-200 pb-3">
         <h2 class="text-xl font-bold text-slate-800 flex items-center gap-2">
